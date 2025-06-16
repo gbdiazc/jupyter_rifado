@@ -6,8 +6,7 @@ def header_block(curso, titulo, autora, institucion="", mostrar_fecha=True):
     md = f"""
 <div style="border: 2px solid #6A1B1A; padding: 16px; border-radius: 10px; background-color: #fdf5f4; text-align: center;">
 
-  <h1 style="color:#6A1B1A; margin-bottom: 6px;">{curso.upper()}</h1>
-  <hr style="border: none; border-top: 3px solid #388E3C; width: 80%; margin: auto; margin-bottom: 20px;" />
+  <h1 style="color:#6A1B1A; margin-bottom: 20px;">{curso.upper()}</h1>
 
   <h2 style="color:#8B2E2D; font-weight: 500;">{titulo}</h2>
 
